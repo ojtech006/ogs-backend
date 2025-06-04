@@ -9,5 +9,5 @@ class ContactMessageAdmin(admin.ModelAdmin):
 
 @admin.register(Product)
 class ProductAdmin(admin.ModelAdmin):
-    list_display = ('title', 'price')
+    list_display = ('title', 'link')
     search_fields = ('title',)
